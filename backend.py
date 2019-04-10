@@ -22,7 +22,7 @@ while True:
         continue
 
     if start == last_count:
-        logging.info("Skipping. Count of bugs unchanged.")
+        logging.info("Skipping. Count of bugs unchanged. This is change")
         time.sleep(0.5)
         continue
 
